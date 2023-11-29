@@ -1,0 +1,96 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.3in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+    \textbf{\Large Srivathsan S}\\[2pt] % Name
+    Dublin, Ireland | \href{mailto:srivaths311@gmail.com}{srivaths311@gmail.com} | (+353) 899 821 465 | \href{https://www.linkedin.com/in/vathsan64}{linkedin.com/in/vathsan64} | Chennai,
+    India % Contact info
+\end{center}
+
+% Education Section
+\section*{EDUCATION}
+\noindent
+\textbf{Trinity College, Dublin}, Dublin, Ireland \hfill Sep 2023 - Expected: Aug 2024\\ % University name and location
+Masters in Physics - Quantum Technologies\\
+Coursework: Introduction to Quantum Information Science, Open Quantum Systems, Quantum Materials and Nanophotonics, Quantum Computation and
+Algorithms, Physical Implementations of Quantum Technology\\% Additional info
+
+\noindent
+\textbf{SASTRA University, Thanjavur}, Tamilnadu, India \hfill Jul 2016 - May 2020\\ % University name and location
+Bachelor of Technology - Information and Communication Technology\\
+Coursework: Data Structures and Algorithms, Machine Learning, Artificial Intelligence, Cryptography, Theory of Computation, Data Mining,
+DBMS, Operating Systems, Networking. % Additional info
+
+% Experience Section
+\section*{EXPERIENCE}
+\noindent
+\textbf{Company Name} \hfill City, State\\ % Company name and location
+\textit{Position Title} \hfill Month Year - Month Year % Position and duration
+\begin{itemize}
+    \item Description of responsibilities and achievements at this position. % Job responsibilities and achievements
+\end{itemize}
+
+% Additional Experience or Volunteer Work
+\noindent
+\textbf{Project or Volunteer Work Name} \hfill City, State\\ % Project or organization name and location
+\textit{Position Title, Volunteer} \hfill Month Year – Month Year % Position and duration
+\begin{itemize}
+    \item Description of responsibilities and achievements at this position. % Responsibilities and achievements
+\end{itemize}
+
+\noindent
+% Club or Organization Experience
+\textbf{Club or Organization Name} \hfill City, State\\ % Club or organization name and location
+\textit{Position Title} \hfill Month Year – Ongoing % Position and duration
+\begin{itemize}
+    \item Description of responsibilities and achievements at this position. % Responsibilities and achievements
+\end{itemize}
+
+% Projects Section
+\section*{PROJECTS}
+\noindent
+\textbf{Project Name} \hfill City, State\\ % Project name and location
+\textit{Project Link:} \url{https://github.com/username/projectname} \hfill Month Year - Status % Project link and duration
+\begin{itemize}
+    \item Description of the project and your contributions. % Project description and contributions
+\end{itemize}
+
+% Additional Project
+\noindent
+\textbf{Project Name} \hfill City, State\\ % Project name and location
+\textit{Project Link:} \url{https://www.projectwebsite.com/} \hfill Month Year % Project link and duration
+\begin{itemize}
+    \item Description of the project and your contributions. % Project description and contributions
+\end{itemize}
+
+% Skills Section
+\section*{SKILLS}
+\begin{itemize}
+    \item \textbf{Relevant Coursework:} List of relevant courses you have taken. % Relevant coursework
+    \item \textbf{Programming:} List of programming languages you are proficient in. % Programming skills
+    \item \textbf{Software:} List of software you are proficient in. % Software skills
+    \item \textbf{Communication:} List of communication skills you possess. % Communication skills
+\end{itemize}
+
+% End document
+\end{document}
